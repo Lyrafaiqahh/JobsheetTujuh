@@ -25,6 +25,10 @@ public class DoWhileCuti15 {
                     continue;
                 }
             }
+            else if (konfirmasi.equalsIgnoreCase("t")){
+                break;
+            }
+            
         } while (jatahCuti > 0);
     }
 }
